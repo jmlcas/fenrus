@@ -1,5 +1,3 @@
-# fenrus
-Fenrus - Dashboard Apps - Docker compose
+# Fenrus
 
-Ver en "localhost:8200"
-
+Ver en "http://localhost:8200"
