@@ -1,9 +1,7 @@
-version: '3.3'
-
 services:
 
   fenrus:
-    image: revenz/fenrus
+    image: revenz/fenrus:latest
     container_name: fenrus
     environment:
       - TZ=Europe/Madrid
@@ -11,6 +9,4 @@ services:
       - ./app/data:/app/data
     ports:
       - '8200:3000'
-    restart: unless-stopped
-
-    
+    restart: unless-stopped    
